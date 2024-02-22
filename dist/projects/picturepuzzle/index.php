@@ -14,7 +14,7 @@ $tegelskeuze16 = 16;
 <a class="text-start"> Hier kunt u een foto uploaden en gebruiken om een puzzel mee te maken. </a>
 <div class="text-start-uploaden">
 <form action="upload.php" method="POST" enctype="multipart/form-data">Selecteer een foto:
-  <input type="file" name="file" id="file" required> 
+  <input type="file" name="file" id="file" required accept="image/jpeg"> 
   <a class="tegels-number" id="tegels-number" name="tegels-number"> Puzzelstukjes:</a>
   <select class="tegels-number" name="dropdown" id="dropdown" required>
     <option value=""></option>

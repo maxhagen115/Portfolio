@@ -8,11 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.rijnijssel.nl:00295800/portfolio_maxhagen.git"
+    "url": "https://github.com/maxhagen115/Portfolio"
   },
   "author": "Max Hagen",
   "license": "MIT",
   "dependencies": {
     "node-sass": "^5.0.0"
-  }
+  },
+  "devDependencies": {
+    "node-sass": "4.9.2"
+},
+"scripts" : {
+    "node-sass": "node-sass --output-style compressed -o dist/css/ scss --recursive"
+}
+  
 }
